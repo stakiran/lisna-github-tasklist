@@ -75,7 +75,26 @@
 ## おわりに
 以上、Lisna を GitHub TaskList で運用するサンプルを紹介した。
 
+## Further Reading
+
+### ソートを素早く行う
 ソートをいかに素早く行うかについては要検討だろう。たとえば Google Chrome 拡張機能を使って一発でソートさせたり、クリップボード中の文字列をソートするコマンドを呼び出すようにしたりなどすれば、Web サービスに手動でコピペしてソートボタンを押すよりも格段に素早くソートできるだろう。
+
+### GitHub Issues を使う
+リポジトリではなく Issues に TaskList を書くこともできる。
+
+- [Issues](https://github.com/stakiran/lisna-github-tasklist/issues?q=is%3Aissue+is%3Aclosed)
+- [Before](https://github.com/stakiran/lisna-github-tasklist/issues/1)
+- [After](https://github.com/stakiran/lisna-github-tasklist/issues/2)
+
+Issues を使うことのメリットは以下のとおり。
+
+- Issues の一覧ページから見ると「13/23（23個中13個まで終わっている）」みたいな進捗が表示されるので状況把握しやすい
+- 各タスクリストを Label で分類できる
+- リポジトリに Markdown ファイルを書くよりも書きやすい
+
+
+
 
 
 
